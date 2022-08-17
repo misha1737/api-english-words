@@ -1,0 +1,276 @@
+{
+	"id": "b2db819c-5b05-0d91-5fa9-5c22fb5dd6f0",
+	"name": "august",
+	"description": "",
+	"order": [
+		"52033046-5a56-bbe8-7996-9d440aae49c4",
+		"5b34c20d-c607-7efa-d8c2-65dd1ade017e",
+		"bbaa8bab-b231-08df-a93f-b62685350d91",
+		"783d5ad6-97a6-31c6-1958-343796797d0c",
+		"3b212867-efce-e607-813d-6f9c9e41dd05",
+		"d3cfaff0-d5d3-3f1b-c50d-fed76df355e4"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1660377194950,
+	"owner": 3784746,
+	"public": false,
+	"requests": [
+		{
+			"id": "3b212867-efce-e607-813d-6f9c9e41dd05",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmY3ZTZhZWQ4YjBlMzAwMWQ4MDg5MGQiLCJpYXQiOjE2NjA3NTE4MjQsImV4cCI6MTY2MDc1NTQyNH0.U1OkLoaka6AlvkyuzL3dO_vYrFvk3jXOz_rkrPkYEPc\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmY3ZTZhZWQ4YjBlMzAwMWQ4MDg5MGQiLCJpYXQiOjE2NjA3NTE4MjQsImV4cCI6MTY2MDc1NTQyNH0.U1OkLoaka6AlvkyuzL3dO_vYrFvk3jXOz_rkrPkYEPc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4999/api/word?id=62fce3dab9e79421401d8e0b",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "62fce3dab9e79421401d8e0b",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1660755485128,
+			"name": "Get words",
+			"description": "",
+			"collectionId": "b2db819c-5b05-0d91-5fa9-5c22fb5dd6f0",
+			"responses": []
+		},
+		{
+			"id": "52033046-5a56-bbe8-7996-9d440aae49c4",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4999/api/registration",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "login",
+					"value": "misha1737",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1660476445659,
+			"name": "Registration",
+			"description": "user registration",
+			"collectionId": "b2db819c-5b05-0d91-5fa9-5c22fb5dd6f0",
+			"responses": []
+		},
+		{
+			"id": "5b34c20d-c607-7efa-d8c2-65dd1ade017e",
+			"headers": "//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:4999/api/auth",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "login",
+					"value": "misha1737",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1660476446422,
+			"name": "Auth",
+			"description": "login",
+			"collectionId": "b2db819c-5b05-0d91-5fa9-5c22fb5dd6f0",
+			"responses": []
+		},
+		{
+			"id": "783d5ad6-97a6-31c6-1958-343796797d0c",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmY3ZTZhZWQ4YjBlMzAwMWQ4MDg5MGQiLCJpYXQiOjE2NjA3NTE4MjQsImV4cCI6MTY2MDc1NTQyNH0.U1OkLoaka6AlvkyuzL3dO_vYrFvk3jXOz_rkrPkYEPc\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmY3ZTZhZWQ4YjBlMzAwMWQ4MDg5MGQiLCJpYXQiOjE2NjA3NTE4MjQsImV4cCI6MTY2MDc1NTQyNH0.U1OkLoaka6AlvkyuzL3dO_vYrFvk3jXOz_rkrPkYEPc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4999/api/topic",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1660751841372,
+			"name": "get topics",
+			"description": "",
+			"collectionId": "b2db819c-5b05-0d91-5fa9-5c22fb5dd6f0",
+			"responses": []
+		},
+		{
+			"id": "bbaa8bab-b231-08df-a93f-b62685350d91",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmY3ZTZhZWQ4YjBlMzAwMWQ4MDg5MGQiLCJpYXQiOjE2NjA3NDc5NTksImV4cCI6MTY2MDc1MTU1OX0.PiApqwvJWfJGacaT-JBPhXv6m2Cv6p24n8axeJbn0Hg\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmY3ZTZhZWQ4YjBlMzAwMWQ4MDg5MGQiLCJpYXQiOjE2NjA3NDc5NTksImV4cCI6MTY2MDc1MTU1OX0.PiApqwvJWfJGacaT-JBPhXv6m2Cv6p24n8axeJbn0Hg",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4999/api/topic",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "someNam e3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userID",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmY3ZTZhZWQ4YjBlMzAwMWQ4MDg5MGQiLCJpYXQiOjE2NjA3NDc5NTksImV4cCI6MTY2MDc1MTU1OX0.PiApqwvJWfJGacaT-JBPhXv6m2Cv6p24n8axeJbn0Hg\n",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1660755486218,
+			"name": "Add topic",
+			"description": "",
+			"collectionId": "b2db819c-5b05-0d91-5fa9-5c22fb5dd6f0",
+			"responses": []
+		},
+		{
+			"id": "d3cfaff0-d5d3-3f1b-c50d-fed76df355e4",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmY3ZTZhZWQ4YjBlMzAwMWQ4MDg5MGQiLCJpYXQiOjE2NjA3NTAwMzUsImV4cCI6MTY2MDc1MzYzNX0.UmshTaiivaxJWcZVj8yiNwqMpf-NQiuOefrHzS6PNrU\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmY3ZTZhZWQ4YjBlMzAwMWQ4MDg5MGQiLCJpYXQiOjE2NjA3NTAwMzUsImV4cCI6MTY2MDc1MzYzNX0.UmshTaiivaxJWcZVj8yiNwqMpf-NQiuOefrHzS6PNrU",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4999/api/word",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "word",
+					"value": "cat",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "translate",
+					"value": "кіт",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "topicID",
+					"value": "62fce3dab9e79421401d8e0b",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1660755485722,
+			"name": "Add word",
+			"description": "",
+			"collectionId": "b2db819c-5b05-0d91-5fa9-5c22fb5dd6f0",
+			"responses": []
+		}
+	]
+}
