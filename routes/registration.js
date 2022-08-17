@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-var User = require("../models/user.js").User;
+let User = require("../models/user.js").User;
 const bcrypt = require("bcryptjs");
 const { body, validationResult } = require('express-validator');
 const jwt= require("jsonwebtoken");
@@ -27,7 +27,7 @@ async (req, res)=> {
     let hash = await bcrypt.hash(password, 11);
         // Store hash in your password DB.
         
-        var user = new User({
+        let user = new User({
           login: login,
           password: hash
         });

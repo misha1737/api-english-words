@@ -3,12 +3,11 @@ Schema = mongoose.Schema;
 
 const schema = new Schema(
   {
-    login: {
+    name: {
       type: String,
-      required: true,
-      unique: true
+      required: true
     },
-    password: {
+    userID: {
       type: String,
       required: true
     },
@@ -18,4 +17,4 @@ const schema = new Schema(
   }
 );
 
-exports.User = mongoose.model("User", schema);
+exports.Topic = mongoose.model("Topic", schema);
