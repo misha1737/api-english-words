@@ -17,3 +17,5 @@ app.post("/api/auth", routes.authorization);
 app.post("/api/registration", routes.registration); 
 app.post("/api/topic", routes.topic); 
 app.get("/api/topic", routes.topic); 
+app.post("/api/word", routes.word); 
+app.get("/api/word", routes.word); 
