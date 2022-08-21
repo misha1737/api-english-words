@@ -7,7 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 node_modules
-
+english-words-learning
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
